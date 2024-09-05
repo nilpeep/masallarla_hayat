@@ -1,7 +1,8 @@
 import "./App.css";
+import Navbar from "./components/navbar/navbar";
 
 function App() {
-  return <div className="App bg-black text-white">masallarla hayat</div>;
+  return <Navbar />;
 }
 
 export default App;
